@@ -1,0 +1,22 @@
+   17  git init
+   20  git status
+   21  git add HelloWorld.java 
+   22  git status
+   23  git commit -m "[Rajendra] Add : adding demo file"
+   24  git config --global user.email "rajendragund22@gmail.com"
+   25  git config --global user.name "Rajendra Gund"
+   26  git commit -m "[Rajendra] Add : adding demo file"
+   27  git log
+   28  git log --oneline
+   29  git branch -M main
+   30  git remote add origin https://github.com/rajendragund22/demo.git
+   31  git push 
+   32   git push --set-upstream origin main
+   33   git push --set-upstream origin main
+   35  git status
+   36  git add .
+   37  git status
+   38  git commit -m "[Rajendra] Update : Updated helloWorld print statement"
+   39  git push origin main
+   40  history | grep git
+   41  history | grep git > commond.txt
